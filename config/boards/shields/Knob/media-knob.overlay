@@ -1,0 +1,11 @@
+/ {
+    encoders {
+        compatible = "zmk,encoders";
+        encoder0: encoder_0 {
+            label = "Volume Encoder";
+            a-gpios = <&gpio0 10 GPIO_ACTIVE_LOW>;
+            b-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;
+            resolution = <4>;
+        };
+    };
+};
