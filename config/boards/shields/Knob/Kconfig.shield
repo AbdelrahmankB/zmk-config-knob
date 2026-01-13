@@ -1,2 +1,3 @@
-config SHIELD_KNOB
-    def_bool $(shields_list_contains, media_knob)
+config SHIELD_MEDIA_KNOB
+    bool "Media Knob"
+    depends on BOARD_NICE_NANO_V2
