@@ -1,6 +1,6 @@
 if SHIELD_KNOB
 
 config ZMK_KEYBOARD_NAME
-    default "media-knob"
+    default "media_knob"
 
 endif

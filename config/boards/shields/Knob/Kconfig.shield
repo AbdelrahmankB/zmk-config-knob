@@ -1,2 +1,2 @@
 config SHIELD_KNOB
-    def_bool $(shields_list_contains, media-knob)
+    def_bool $(shields_list_contains, media_knob)
